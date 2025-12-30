@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const allowedOrigins = [
-    "http://localhost:5173",
+    "https://two026-portfolio-1.onrender.com",
     process.env.FRONTEND_URL,
     process.env.FRONTEND_URL_WWW,
 ].filter(Boolean);

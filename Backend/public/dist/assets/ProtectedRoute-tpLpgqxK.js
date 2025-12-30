@@ -1,1 +1,0 @@
-import{b as r,j as t,L as s,p as a}from"./index-CirQbU73.js";const l=({children:n})=>{const o=r(e=>e.user?.user);return r(e=>e.user?.loading)?t.jsx(s,{fullScreen:!0,text:"Loading..."}):o?n:t.jsx(a,{to:"/admin/login",replace:!0})};export{l as default};
